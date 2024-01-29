@@ -1,7 +1,7 @@
 1. The working directory is  `/home`  <br>
 The commend `cat` is used to duplicate the content based on the argument. If the commend `cat` follows no argument, when we return, we will get blank output because there is no content in the terminal.<br> 
 The output is not an error. If the commend `cat` follows with no argument, it defaults duplicate the content in the terminal. Since the current working path has nothing in the terminal, so the output is blank.<br>
-
+![image](Labreportcat.png)<br>
 2. The working directory is */home*  <br>
 For this code, commend `cat` follows the argument `lecture1`. The output warns us that `lecture1` is a directory. Therefore, we failed to duplicate any content from the argument *lecture1* <br>
 This output is an error because we can't duplicate a direcotry. Therefore, we can't use a directory's name as the argument for cat. 
