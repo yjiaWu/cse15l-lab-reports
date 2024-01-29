@@ -1,4 +1,4 @@
-`
+```
 import java.io.IOException;
 import java.net.URI;
 class Handler implements URLHandler {
@@ -61,7 +61,8 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
-`
+```
 ![image](Output1.png)<br>
+When we input an url
 
 
