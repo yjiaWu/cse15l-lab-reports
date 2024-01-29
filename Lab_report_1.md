@@ -1,5 +1,5 @@
-1. The working directory is */home*  <br>
-The commend `cat` is used to duplicate the content based on the argument. If the cat follows no argument, when we return, we will get blank output because there is no content in the terminal.<br> 
+1. The working directory is  `/home`  <br>
+The commend `cat` is used to duplicate the content based on the argument. If the commend `cat` follows no argument, when we return, we will get blank output because there is no content in the terminal.<br> 
 The output is not an error. If the commend `cat` follows with no argument, it defaults duplicate the content in the terminal. Since the current working path has nothing in the terminal, so the output is blank.<br>
 
 2. The working directory is */home*  <br>
