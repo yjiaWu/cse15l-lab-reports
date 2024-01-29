@@ -6,7 +6,7 @@ The output is not an error. If the commend `cat` follows with no argument, it de
 For this code, commend `cat` follows the argument `lecture1`. The output warns us that `lecture1` is a directory. Therefore, we failed to duplicate any content from the argument `lecture1`<br>
 This output is an error because we can't duplicate a direcotry. Therefore, we can't use a directory's name as the argument for cat. 
 ![image](Labreport1cat1.png)<br>
-3. The working directory is `/home/lecture1/messages/en-us.txt`<br>
+3. The working directory is `/home`<br>
 The commend `cat` is used to duplicate the content in the argument. So this code duplicates the content in the file `en-us.txt`<br>
 This output is not an error because it duplicates the content from `en-us.txt` successfully. 
 ![image](Labreport1%20cat%202.png)<br>
