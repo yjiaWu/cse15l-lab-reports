@@ -6,30 +6,39 @@ import java.util.List;
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated byhttp://localhost:4000
     // various requests.
-    private static final int size = 10;
+    public int size = 10;
     private static final int expand = 2; 
     public int num = 0;
     public String[] information = new String[size];
 
     public String handleRequest(URI url) {
-        if(size == information.length){
-            int newsize = size * expand; 
-            String[] newinform = new String[newsize];
-            for(int i = 0; i < size; i++) {
-                newinform[i] = information[i];
-            }
-            information = newinform;
-        }
-
-        if (url.getPath().contains("/add-message")) {
+         if (url.getPath().contains("/add-message")) {
             String[] messages = url.getQuery().split("&");
             String[] param1 = messages[0].split("=");
             String[] param2 = messages[1].split("=");
+            if(size == information.length){
+                int newsize = size * expand; 
+                String[] newinform = new String[newsize];
+                for(int i = 0; i < size; i++) {
+                    newinform[i] = information[i];
+                }
+                information = newinform;
+                size = newsize; 
+            }
             if (param1[0].contains("s")&&param2[0].contains("user")) {
                 String message = param2[1] + ": " + param1[1];
                 information[num] = message;
                 num += 1; 
-                return String.join("\n", information);
+                String returnmsg = "";
+                for(int i = 0; i < num -1 ; i++){
+                    if(information[i] != null){
+                        returnmsg += information[i] + "\n";
+                    }
+
+        
+                }
+                return returnmsg;
+
             }
             
             return "right path but wrong query";
