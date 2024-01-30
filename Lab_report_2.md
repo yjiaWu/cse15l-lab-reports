@@ -67,7 +67,25 @@ class ChatServer {
 ![image](Output1.png)<br>
 When I input an `url`, method `handleRequest` is called. <br>
 Argument is `http://localhost:6006/add-message?s=today&user=weekend` as `url`. Since the `url` contains `/add-message`, the `url` is splited into three string array as `messages`, `param1` and `param2`. `if` statement applies to a size check to make sure the `information` has enought size. Since the size is enought, `param1[1]` as `today` and `param2[1]` as `weekend` and `: ` is stored into `information[num]` as a whole string. `num` is updated afterwards. <br>
+After the method run, `information` becomes `['weekend: today']`. `num` is updated to 1. <br>
 
+*Output2*
+![image](Output2.png)<br>
+When I input an `url`, method `handleRequest` is called. 
+Argument is `http://localhost:6006/add-message?s=hello&user=Brenda` as `usl`. Sincer the `url` contains `/add-message`, the `url` is splited into three string array as `meesages`, `param1` and `param2`. `if` statement is used to make sure the `information` has enough space to store the new message. Since the size enough in this method call, `param1[1]` as `hello` and `param2[1]` as `Brenda` and `: ` instored into `information[num]` as a whole string. `num` is updated afterwards. <br>
+After the method run, `information` becomes `['weeked: today' /n 'Brenda: hello']`<br>
+
+**Part2**
+1.Private key <br>
+![image](Labreport2privatekey.png) <br>
+
+2.Public key <br>
+![image](Labreport2publickey.png) <br>
+
+3.Terminal <br>
+![image](Labreportpart2.png)<br>
+
+  
 
 
 
