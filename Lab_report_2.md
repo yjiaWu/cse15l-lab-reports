@@ -85,7 +85,7 @@ After the method run, `information` becomes `['weeked: today' /n 'Brenda: hello'
 3.Terminal <br>
 ![image](Labreport2part2.png)<br>
 
-**Part3**
+**Part3** <br>
 In week 3's lab session, we learn how to log onto the school's server `ieng6` and copy the public key into the local computer with the commend `scp` and `mkdir`. This allows me to open the school server `ieng6` on my local terminal without entering the password. Also, in week 2 and week 3, I learnt the to use java code to commend the website to return the corresponding content on the web page. This skill can be used to do more implementation on the website page. Lastly, I learnt the concept of server number. Each website needs a special server number to start the server. Usually, we want the number to be above 4000 to make sure that the number is not being used by other websites. 
   
 
