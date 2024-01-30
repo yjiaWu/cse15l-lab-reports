@@ -1,3 +1,4 @@
+**Part1**
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -63,6 +64,10 @@ class ChatServer {
 }
 ```
 ![image](Output1.png)<br>
-When we input an url
+When I input an `url`, method `handleRequest` is called. <br>
+Argument is `http://localhost:6006/add-message?s=today&user=weekend` as `url`. Since the `url` contains `/add-message`, the `url` is splited into three string array as `messages`, `param1` and `param2`. `if` statement applies to a size check to make sure the `information` has enought size. Since the size is enought, `param1[1]` as `today` and `param2[1]` as `weekend` and `: ` is stored into `information[num]` as a whole string. `num` is updated afterwards. <br>
+
+
+
 
 
