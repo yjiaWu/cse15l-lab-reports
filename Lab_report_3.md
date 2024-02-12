@@ -48,7 +48,37 @@ static int[] reversed(int[] arr) {
 ```
 The above code fixed the bug. I switch the position of `newArray` with `arr` in the for loop. I put `newArray` in the left, and `arr` in the right. Now, the for loop would assign the element in `arr` into `newArray` in a reverse order correctly. <br>
 
-# Part 2: Researching commands 
+# Part 2: Researching commands <br>
+**1. `-size`**
+```
+wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -size -1M | head -n 10
+./technical
+./technical/government
+./technical/government/About_LSC
+./technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+./technical/government/About_LSC/Progress_report.txt
+./technical/government/About_LSC/Strategic_report.txt
+./technical/government/About_LSC/Comments_on_semiannual.txt
+./technical/government/About_LSC/Special_report_to_congress.txt
+./technical/government/About_LSC/CONFIG_STANDARDS.txt
+./technical/government/About_LSC/commission_report.txt
+```
+The command `-size` allows the `find` to search based on the size of the files in the directory. For this example, I put `-1M` as the requirement, then it would show up all the files whose size is under 1M in the directory `./technical`. Since there are too many files under 1M, I add `|head -n 10` command to ask the terminal only show the first 10 files of the outcome. <br>
+
+```
+wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -size +200k | head -n 10
+./technical/government/About_LSC/commission_report.txt
+./technical/government/Env_Prot_Agen/bill.txt
+./technical/government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt
+./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+./technical/government/Gen_Account_Office/d01591sp.txt
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-3.txt
+```
+The command `-size` allows the `find` to search based on the size of the files in the directory. For this example, I put `+200k` as the requirement, then it would show up all the files whose size is larger than 200k in the directory `./technical`. Since there are too many files under 1M, I add `|head -n 10` command to ask the terminal only show the first 10 files of the outcome. <br>
+
+
 
 
 
