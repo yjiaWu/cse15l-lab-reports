@@ -19,6 +19,9 @@ the input is `int[] input1 = { }`. The test would show pass because the array is
     assertArrayEquals(expected, ArrayExamples.reversed(input1));
   }
 ```
+3. Symptom <br>
+For the test with input of empty array, the test shows it passed. However for the test with elements in the array, the message shows the outcome is different with the expected output. The expected output for the element at index 0 is 6 but the outcome is 0. <br>
+
 
 
 
