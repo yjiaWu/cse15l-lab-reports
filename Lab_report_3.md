@@ -78,7 +78,55 @@ wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -size +200k | h
 ```
 The command `-size` allows the `find` to search based on the size of the files in the directory. For this example, I put `+200k` as the requirement, then it would show up all the files whose size is larger than 200k in the directory `./technical`. Since there are too many files under 1M, I add `|head -n 10` command to ask the terminal only show the first 10 files of the outcome. <br>
 
+**2. `-maxdepth`**
+```
+wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -maxdepth 1
+./technical
+./technical/government
+./technical/plos
+./technical/biomed
+./technical/911report
+```
+The command `-maxdepth` specifies the maximum directories the `find` command can search for files or directories. I pass `1` after `-maxdepth` restricts the `find` command only can find maximum 1 depth of the directory in `./technical`. <br>
+```
+wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -maxdepth 0
+./technical
+```
+The command `-maxdepth` specifies the maximum directories the `find` command can search for files or directories. For this example, I pass `0` after the command `find`, so this command can only search for directories with maximum of 0 depth in './technical'. <br>
 
+**3. `-type`**
+```
+wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -type d  
+./technical
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/government/Media
+./technical/plos
+./technical/biomed
+./technical/911report
+```
+The command `type` is used to specify the files or directories we want to search. For this example, I pass `d` after the command to specify that I only want to search for directory in the `./technical`. <br>
+
+```
+wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -type f | head -n 10
+./technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+./technical/government/About_LSC/Progress_report.txt
+./technical/government/About_LSC/Strategic_report.txt
+./technical/government/About_LSC/Comments_on_semiannual.txt
+./technical/government/About_LSC/Special_report_to_congress.txt
+./technical/government/About_LSC/CONFIG_STANDARDS.txt
+./technical/government/About_LSC/commission_report.txt
+./technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
+./technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt
+./technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt
+```
+The command `type` is used to specify the files or directories we want to search. For this example, I pass `f` after the command to specify that I only want to search for regualr files in the directory `./technical`. <br>
+
+**4. ``
 
 
 
