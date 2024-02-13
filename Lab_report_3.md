@@ -126,7 +126,41 @@ wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -type f | head 
 ```
 The command `type` is used to specify the files or directories we want to search. For this example, I pass `f` after the command to specify that I only want to search for regualr files in the directory `./technical`. <br>
 
-**4. ``
+**4. `-iregex`**
+```
+wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -iregex ".*\.txt" | head -n 10
+./technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+./technical/government/About_LSC/Progress_report.txt
+./technical/government/About_LSC/Strategic_report.txt
+./technical/government/About_LSC/Comments_on_semiannual.txt
+./technical/government/About_LSC/Special_report_to_congress.txt
+./technical/government/About_LSC/CONFIG_STANDARDS.txt
+./technical/government/About_LSC/commission_report.txt
+./technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
+./technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt
+./technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt
+```
+The command `-iregex` specifies the `find` command to search for files or directories follows the certain pattern. I pass `".*\.txt"` asks the computer to search for files and directories in `./technical` directory which is text file. Since there are too many text file in the directory `./technical`, I added `head -n 10` to ask the terminal only show the first 10 text files in the directory. <br>
+```
+wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -iregex ".*chapter.*"
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+./technical/911report/chapter-8.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+```
+The command `-iregex` specifies the `find` command to search for files or directories follows the certain pattern. I pass `".*chapter.*"` which asks the computer to search for files or directories in `./technical` with `chatper` in any position. <br>
 
 
 
