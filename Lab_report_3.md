@@ -162,6 +162,12 @@ wuyijia@wuyijiadediertaiMacBook-Pro docsearch % find ./technical -iregex ".*chap
 ```
 The command `-iregex` specifies the `find` command to search for files or directories follows the certain pattern. I pass `".*chapter.*"` which asks the computer to search for files or directories in `./technical` with `chatper` in any position. <br>
 
+**Citation**
+Prompt for Chatgpt: 
+1. Commands that can use with `find` in the terminal
+   *Chatgpt give me several commands that can use with `find` and it offers me some brief explanation of the function for each command. I pick four from the list of commands which I think I understand how to use it with it's explanation.* <br>
+2. How to use `-iregex` with `find`
+   *For this specific command, I didn't really understand how should I pass in the argument after the `-iregex`, so I asked Chatgpt to give me more specific information. Chatgpt gives me some examples of useing `-iregex`, then I followed the instruction to apply the command in the direcotry `./technical`.*
 
 
 
