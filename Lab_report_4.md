@@ -16,7 +16,7 @@ This command line is used to change directory into lab7, so I can use terminal t
 Key pressed: `ls`<br>
 This command line is used to list out all the files in `lab7` directory. I want to see what's the file's name for `bash` to run the test.<br>
 Key pressed: `bash test.sh`
-Use `bash` command to run the `test.sh` file. This command aims to run the tests in the directory to check the test results, so I can know if the java file has bugs. 
+Use `bash` command to run the `test.sh` file. This command aims to run the tests in the directory to check the test results, so I can know if the java file has bugs. After press `enter`, the tests result shows in terminal. The result shows that 1 test fails, so it gives me a sign that the java file has a bug. <br> 
 
 **Step 7**
 ![image6](Labreport4_7.3.png)<br>
@@ -30,7 +30,19 @@ Key press: `:wc` `enter`<br>
 After editing the file, I should exit back to the terminal. So I use `:wc` to save the changes and exit the `vim`. I should press `enter` to run the command. <br>
 
 **Step 8**
-![image7](Labreport4_8.png)<br>
+![image7](Labreport4_8.jpg)<br>
+Key press: `bash test.sh` then `enter`<br>
+After I change the file, I should run the test again to make sure all tests are passed now. Use `bash` to run `test.sh`. This command aims to run the test file, and then `enter` can give me the test results in terminal. This time, the terminal shows that all the tests pass.<br>
+
+**Step 9**
+![image8](Labreport4_9.1.png)<br>
+![image9](Labreport4_9.2.png)<br>
+Key press: `git add .`<br>
+This command line add all modified files or new files in the current directory to required area. 
+Key press: `git commit -m "The file is commited to GitHub"`<br>
+Use `commit` to save all the changes to the local git repository. Comman `-m` allows me to specify the commit mesage through terminal. This whole command line is used to save all changes in local git repository and appoint the commit message. 
+Key press: `git push origin main`<br>
+The command `git push` allows me to push the commited changes to GitHub. `main` indicates the branch that I want to push the changes into. 
 
 
 
