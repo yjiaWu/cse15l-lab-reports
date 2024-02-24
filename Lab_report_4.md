@@ -42,7 +42,7 @@ This command line add all modified files or new files in the current directory t
 Key press: `git commit -m "The file is commited to GitHub"`<br>
 Use `commit` to save all the changes to the local git repository. Comman `-m` allows me to specify the commit mesage through terminal. This whole command line is used to save all changes in local git repository and appoint the commit message. 
 Key press: `git push origin main`<br>
-The command `git push` allows me to push the commited changes to GitHub. `main` indicates the branch that I want to push the changes into. 
+The command `git push` allows me to push the commited changes to GitHub. `main` indicates the branch in GitHub that I want to push the changes into. 
 
 
 
