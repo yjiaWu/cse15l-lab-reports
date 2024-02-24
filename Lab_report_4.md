@@ -19,4 +19,5 @@ Key pressed: `bash test.sh`
 Use `bash` command to run the `test.sh` file. This command aims to run the tests in the directory to check the test results, so I can know if the java file has bugs. 
 
 **Step 7**
-
+![image4](Labreport4_7.png)<br>
+![image5](Labreport4_7.2.png)<br>
