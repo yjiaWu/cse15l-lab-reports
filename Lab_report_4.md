@@ -19,5 +19,19 @@ Key pressed: `bash test.sh`
 Use `bash` command to run the `test.sh` file. This command aims to run the tests in the directory to check the test results, so I can know if the java file has bugs. 
 
 **Step 7**
+![image6](Labreport4_7.3.png)<br>
 ![image4](Labreport4_7.png)<br>
 ![image5](Labreport4_7.2.png)<br>
+Key press: `vim ListExamples.java`<br>
+Use `vim` command to open the java file `ListExamples.java`. This command line allows me to see the java file in the terminal and make changes on the java file.<br>
+Key press: `i` and then `delete`, then press `2`, and then press`esc`. <br>
+I first press `i` to enter insert mode, so that I can edit the content of the file. I can directly locate the mouse to the place after the word I want to edit. For this example, I can locate the mouse after word `1`. Then I press `delete` to delete the word 1. Then I press `2` to change the word from 1 to 2 to make the code run succesfully. After all those, I press `esc` to exit back to normal mode. <br>
+Key press: `:wc` `enter`<br>
+After editing the file, I should exit back to the terminal. So I use `:wc` to save the changes and exit the `vim`. I should press `enter` to run the command. <br>
+
+**Step 8**
+![image7](Labreport4_8.png)<br>
+
+
+
+
