@@ -22,5 +22,6 @@ ArrayTests.java:<br>
 ArrayExamples.java:<br>
 ![image](Labreport5_1.6.png)<br>
 ArrayTestrun.sh
+![image](Labreport5_1.7.png)<br>
 
 
