@@ -14,6 +14,13 @@ The bug is acutally inside the for loop. I switch the position for `arr` and `ne
 ![image](Labreport5_1.3.png)<br>
 
 **Setup**
-The file and direcotry needed are in the lab3. 
+The file and direcotry needed are in the lab3.<br>
 ![image](Labreport5_1.4.png)<br>
+The content of each file before fixing the bug:<br>
+ArrayTests.java:<br>
+![image](Labreport5_1.5.png)<br>
+ArrayExamples.java:<br>
+![image](Labreport5_1.6.png)<br>
+ArrayTestrun.sh
+
 
