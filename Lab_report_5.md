@@ -26,6 +26,6 @@ ArrayTestrun.sh:<br>
 ![image](Labreport5_1.7.png)<br>
 
 ## Part 2 
-One thing very cool I learnt in the lab is `vim`. Trough the `vim` commend, I can successfully edit files in the terminal, and commit the change to the github through terminal as well. Before, I always thought terminal is used to run files, and I didn't know that terminal is powerful enough to edit the file. By knowing how to use a vim, when I access something that is not locally downloaded in computer, I can still have a method to make adjustment to it and view the content of the file. I think this is a very powerful tool. 
+One thing very cool I learnt in the lab is `vim`. Trough the `vim` commend, I can successfully edit files in the terminal, and commit the change to the github through terminal as well. Before, I always thought terminal is used to run files, and I didn't know that terminal is powerful enough to edit the file. By knowing how to use `vim`, when I access something that is not locally downloaded in computer, I can still have a method to make adjustment to it and view the content of the file. I think this is a very powerful tool. 
 
 
