@@ -12,3 +12,8 @@ Yijia Wu: Try to replace the `arr` and `newArray`'s position in the for loop. Ri
 **After the debugging**
 The bug is acutally inside the for loop. I switch the position for `arr` and `newArray` to allow the the element in `arr` is copied into `newArray` in a reverse order through the for loop. Also, I change the returned varaible from `arr` into `newArray`, so that the output would be the reversed array list. I believe by doing this change, the for loop would copy the element in `arr` from the last element into the `newArray` from index 0 in an reverse order. 
 ![image](Labreport5_1.3.png)<br>
+
+**Setup**
+The file and direcotry needed are in the lab3. 
+![image](Labreport5_1.4.png)<br>
+
